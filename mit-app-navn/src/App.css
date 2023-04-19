@@ -1,0 +1,177 @@
+/* Generelle regler */
+
+html,
+body {
+  margin-right: 100px;
+  margin-left: 170px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1510px !important;
+  }
+
+}
+
+.nav-link:hover {
+  border: 2px solid #EBA122;
+}
+
+.line {
+  border-top: 2px solid #7C9883;
+}
+
+.icon {
+  margin-top: 2px;
+}
+
+
+/* Fonts */
+
+h2,
+h3,
+h5,
+q {
+  font-family: "Delicious Handrawn";
+}
+
+h1 {
+  font-family: "Delicious Handrawn";
+  font-size: 140px;
+}
+
+p {
+  font-family: "Noto Serif";
+}
+
+/* Knapper*/
+
+.read-more-button,
+.contact-button {
+  background-color: #EBA122 !important;
+  border-radius: 15px !important;
+  font-family: "Delicious Handrawn" !important;
+  width: 116px;
+
+}
+
+.read-more-button:hover,
+.contact-button:hover {
+  background: #7C9883 !important;
+}
+
+
+/* Om os */
+
+.os{
+  margin-right: 100px;
+  margin-left: 170px;
+}
+
+.potrætter {
+  margin: auto auto;
+  display: block;
+}
+
+.kunde-citat {
+  text-align: center;
+}
+
+.sophies-flowers,
+.can-do-more, 
+.true-web{
+  color: #E3A542;
+  border-bottom: none;
+}
+
+.men-vi-kan-meget{
+  margin-right: 100px;
+  margin-left: 170px;
+
+}
+
+
+/* Hjemmesider */
+
+.cases {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+  transition: 1s ease;
+}
+
+.column img:hover{
+  -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+.dykker{
+  position: absolute;
+  bottom: 500px;
+  right: 340px;
+  
+}
+
+
+/* Kontakt */
+
+.telefon-ikon{
+  position: absolute;
+  bottom: 430px;
+  left: 650px;
+}
+
+.kontakt-os {
+  text-align: center;
+}
+
+.kontakt-os>h2 {
+  border: 2px solid #EDB346;
+  inline-size: 150px; 
+  margin-left: 500px;
+
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #7C9883;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  inline-size: 650px; 
+  font-family: "Noto Serif";
+}
+
+.kontakt-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* motion graphic */
+span {
+  color: #EBA122;
+  border-bottom: 1px solid #EBA122;
+}
+
+
+/* footer */
+.phone-number,
+.email {
+  font-family: "Noto Serif"
+}
