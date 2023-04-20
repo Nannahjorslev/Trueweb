@@ -1,3 +1,14 @@
+import dyk from "../images/dyk.webp";
+import blomster from "../images/blomster.webp";
+import Byg from "../images/byg.webp";
+import Toj from "../images/Toj.webp";
+import Dyr from "../images/dyr.webp";
+import ex from "../images/ex.webp";
+import Rejse from "../images/Rejse.webp";
+
+
+
+
 function Hjemmesider() {
     return (
         <div className="container mt-3">
@@ -9,34 +20,34 @@ function Hjemmesider() {
                     <p> Psst. Her kan du se vores arbejde med andre klienter</p>
 
                     <div class="dykker">
-                        <img src="images/dyk.png" class="dyk" alt="dyk" width="150"></img>
+                        <img src={dyk} class="dyk" alt="dyk" width="150"></img>
                     </div> 
 
                     <br></br><br></br> <br></br> <br></br> 
 
                     <div class="row">
                         <div class="column">
-                        <img src="images/blomster.webp" alt="sophies" width="550"></img>
+                        <img src={blomster} alt="sophies" width="550"></img>
                         </div>
 
                         <div class="column">
-                            <img src="images\Byg.webp" alt="rephouse" width="550"></img>
+                            <img src={Byg} alt="rephouse" width="550"></img>
                         </div>
 
                         <div class="column">
-                            <img src="images\Toj.webp" alt="vallios" width="550" ></img>
+                            <img src={Toj} alt="vallios" width="550" ></img>
                         </div>
 
                         <div class="column">
-                            <img src="images\Dyr.webp" alt="animal" width="550" ></img>
+                            <img src={Dyr} alt="animal" width="550" ></img>
                         </div>
 
                         <div class="column">
-                            <img src="images\ex.webp" alt="misolo" width="550"></img>
+                            <img src={ex} alt="misolo" width="550"></img>
                         </div>
 
                         <div class="column">
-                            <img src="images\Rejse.webp" alt="travelsy" width="550"></img>
+                            <img src={Rejse} alt="travelsy" width="550"></img>
                         </div>
 
 

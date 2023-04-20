@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 
+import logo from "../images/logo.webp";
+
 import { NavLink } from "react-router-dom";
 
 
@@ -13,7 +15,7 @@ function Nav() {
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                        <a href="/"> <img src="images/logo.webp" width="100" class="logo-img" alt="trueweb logo" /></a>
+                        <a href="/"> <img src={logo} width="100" class="logo-img" alt="trueweb logo" /></a>
 
 
                     </ul>

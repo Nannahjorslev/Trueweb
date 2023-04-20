@@ -1,3 +1,7 @@
+import pot from "../images/pot.webp";
+
+
+
 function Omos() {
     return (
         <div className="container mt-3">
@@ -22,7 +26,7 @@ function Omos() {
                 <section class="vi-bag">
                     <div class="potrætter">
                         <h2 className="os">Vi står bag <span className="true-web">TrueWeb</span></h2>
-                        <img src="images/potr‘tter3.webp" class="potrætter" alt="potrætter" width="800"></img>
+                        <img src={pot} class="potrætter" alt="potrætter" width="800"></img>
                     </div>
                 </section>
             </section>

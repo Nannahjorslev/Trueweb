@@ -1,3 +1,7 @@
+import phone from "../images/phone.webp";
+
+
+
 export default function Kontakt() {
     return (
         <div className="container mt-3">
@@ -11,7 +15,7 @@ export default function Kontakt() {
 
         <p> Vi ser frem til at møde dig!</p>
         <div class="telefon-ikon">
-            <img src="images/phone.webp" class="tlf" alt="tlf" width="35"></img>
+            <img src={phone} class="tlf" alt="tlf" width="35"></img>
         </div> <br></br>
         <p> +45 12 13 14 15</p>
 

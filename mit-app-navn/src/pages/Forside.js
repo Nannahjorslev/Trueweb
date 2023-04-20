@@ -1,13 +1,19 @@
+import logo from "../images/logo.webp";
+import tekst2 from "../images/tekst2.gif";
+import downarrow from "../images/downarrow.png";
+import illustrationomos from "../images/illustrationomos.webp";
+import illustration2 from "../images/illustration2.webp";
+
 export default function Forside() {
     return (
         <div className="container mt-3">
             <div className="welcome-section text-center"> <br></br> <br></br> <br></br>
                 <h1 class="text-center welcome-to">Velkommen til</h1>
 
-                <img src="images/logo.webp" width="400" className="logo-img" alt="trueweb logo" />
-                <img src="images/tekst2.gif" width="1000"></img> 
+                <img src={logo} width="400" className="logo-img" alt="trueweb logo" />
+                <img src={tekst2} width="1000"></img> 
        <br></br>
-                <img src="images/down-arrow.png" width="50" className="mt-4" />
+                <img src={downarrow} width="50" className="mt-4" />
             </div> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
 
 
@@ -30,7 +36,7 @@ export default function Forside() {
                                     </div>
                                 </div>
                                 <div className="col">
-                                    <img src="images/illustrationomos.webp" className="illustration-pc-mand" alt="tæt-på" width="450" />
+                                    <img src={illustrationomos} className="illustration-pc-mand" alt="tæt-på" width="450" />
                                 </div>
                             </div>
                         </div>
@@ -46,7 +52,7 @@ export default function Forside() {
                         <div className="">
                             <div className="row">
                                 <div className="col">
-                                    <img src="images/illustration2.webp" className="illustration-pc-mand" alt="tæt-på" width="450" />
+                                    <img src={illustration2} className="illustration-pc-mand" alt="tæt-på" width="450" />
                                 </div>
 
                                 <div class="col order-1 mt-5">
