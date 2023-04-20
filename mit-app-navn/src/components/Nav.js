@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 
+import { NavLink } from "react-router-dom";
+
 
 function Nav() {
     return (
@@ -19,7 +21,7 @@ function Nav() {
                         <ul class="nav justify-content-end">
 
                             <li class="nav-item">
-                                <a class="nav-link" href="omos"><h3>Om os</h3></a>
+                            <NavLink className="nav-link" to="/omos"><h3>Om os</h3></NavLink>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="hjemmesider"><h3>Hjemmesider</h3></a>
@@ -36,3 +38,5 @@ function Nav() {
 }
 
 export default Nav;
+
+

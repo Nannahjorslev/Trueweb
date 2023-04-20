@@ -14,8 +14,8 @@ import Kontakt from './pages/Kontakt';
 function App() {
   return (
     <div className="App">
-      <Nav />
       <BrowserRouter>
+      <Nav />
         <Routes>
           <Route path="/" element={<Forside />} />
           <Route path="/omos" element={<Omos />} />
