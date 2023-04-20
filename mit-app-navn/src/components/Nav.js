@@ -24,10 +24,10 @@ function Nav() {
                             <NavLink className="nav-link" to="/omos"><h3>Om os</h3></NavLink>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="hjemmesider"><h3>Hjemmesider</h3></a>
+                            <NavLink className="nav-link" to="/hjemmesider"><h3>Hjemmesider</h3></NavLink>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="kontakt"><h3>Kontakt</h3></a>
+                            <NavLink className="nav-link" to="/kontakt"><h3>Kontakt</h3></NavLink>
                             </li>
                         </ul>
                     </div>
